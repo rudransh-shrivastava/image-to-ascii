@@ -2,6 +2,9 @@
 
 #### Usage:
 ```bash
-go run main.go <image_path> <output_text_file_name.txt> <output_image_name.png> -c
+go run main.go <path/to/image.png> <output_text_file_name.txt> <output_image_name.png> -c
 ```
--c is optional, stands for colourful 
+
+-c is optional, stands for colourful .
+
+currently supports jpg and png image formats.
